@@ -173,7 +173,55 @@
 //     profileImage.remove();
 // }
 
-//optimization
-const list=document.querySelector("my-list");
+//optimization using Documnetfragmnet
 
-console.time("loop without fragment");
+
+//TOPIC EEVNT LISTENER 
+// const button =document.getElementById("action-button");
+// const statusText=document.getElementById("status-text");
+
+// function onButtonClick(){
+//   console.log("Button was clicked!");
+//   statusText.textContent = "Action Performed!";
+//   statusText.style.color = 'green';
+// }
+
+// button.addEventListener("click",onButtonClick);
+// const text=document.getElementById("h1");
+// function greet(){
+//     console.log("hello guies");
+//     text.textContent="action performed";
+//     text.style.color="brown";
+// }
+// const logo=document.getElementById("mydiv");
+
+
+// logo.addEventListener('click',greet);
+// logo.addEventListener('dblclick',greet);
+// logo.addEventListener('mousemove',greet);
+// logo.addEventListener('mouseenter',greet);
+// logo.addEventListener('mouseleave',greet);
+// document.addEventListener('keydown', (e) => {
+//     console.log('Key pressed:', e.key);
+//     console.log('Key code:', e.code);
+//     console.log('Ctrl pressed:', e.ctrlKey);
+//     console.log('Shift pressed:', e.shiftKey);
+//     console.log('Alt pressed:', e.altKey);
+// });
+
+// Jab key dabayenge
+// document.addEventListener('keydown', (e) => {
+//     console.log('Key Down:', e.key);
+// });
+
+// Jab key chhodenge
+// document.addEventListener('keyup', (e) => {
+//     console.log('Key Up:', e.key);
+// });
+// Form Events
+const input = document.querySelector('input');
+const form = document.querySelector('form');
+// input.addEventListener('focus', () => console.log('Input focused'));
+// input.addEventListener('blur', () => console.log('Input blurred'));
+// input.addEventListener('input', (e) => console.log('Input value:', e.target.value));
+// input.addEventListener('change', (e) => console.log('Changed:', e.target.value));
