@@ -219,8 +219,8 @@
 //     console.log('Key Up:', e.key);
 // });
 // Form Events
-const input = document.querySelector('input');
-const form = document.querySelector('form');
+// const input = document.querySelector('input');
+// const form = document.querySelector('form');
 // input.addEventListener('focus', () => console.log('Input focused'));
 // input.addEventListener('blur', () => console.log('Input blurred'));
 // input.addEventListener('input', (e) => console.log('Input value:', e.target.value));
