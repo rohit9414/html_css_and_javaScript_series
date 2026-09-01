@@ -1,7 +1,4 @@
-
-const form=document.querySelector("form");
-
-form.addEventListener("submit",(e)=>{
+document.querySelector("form").addEventListener('submit',(e)=>{
 e.preventDefault();//yeh page ko reload hone se rokta hai
 const income=document.getElementById("income");
 const amount=parseFloat(income.value);//jo bhi kuchh lete hai wo string ke form me aata hai isliye usko float me convert karna padta hai
